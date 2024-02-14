@@ -1,5 +1,5 @@
-#ifndef PLANET_H
-#define PLANET_H
+#ifndef PLANET_HPP
+#define PLANET_HPP
 
 #include <string>
 #include <iostream>
@@ -8,8 +8,7 @@
 
 class Planet {
 private:
-    double x;
-    double y;
+    double x,y;
     double velocity;
     std::string name;
 
